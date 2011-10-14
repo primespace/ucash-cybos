@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uCash.Cybos", "uCash.Cybos\uCash.Cybos.vcproj", "{FD96BD22-D338-46EC-BA69-457A27EA9670}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_uCash.Cybos", "test_uCash.Cybos\test_uCash.Cybos.vcproj", "{1F780014-1EC7-4C9A-AF8A-1E8139A76877}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD96BD22-D338-46EC-BA69-457A27EA9670} = {FD96BD22-D338-46EC-BA69-457A27EA9670}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD96BD22-D338-46EC-BA69-457A27EA9670}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD96BD22-D338-46EC-BA69-457A27EA9670}.Debug|Win32.Build.0 = Debug|Win32
+		{FD96BD22-D338-46EC-BA69-457A27EA9670}.Release|Win32.ActiveCfg = Release|Win32
+		{FD96BD22-D338-46EC-BA69-457A27EA9670}.Release|Win32.Build.0 = Release|Win32
+		{1F780014-1EC7-4C9A-AF8A-1E8139A76877}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1F780014-1EC7-4C9A-AF8A-1E8139A76877}.Debug|Win32.Build.0 = Debug|Win32
+		{1F780014-1EC7-4C9A-AF8A-1E8139A76877}.Release|Win32.ActiveCfg = Release|Win32
+		{1F780014-1EC7-4C9A-AF8A-1E8139A76877}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
